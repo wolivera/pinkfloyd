@@ -1,6 +1,6 @@
 {
   "name": "pinkfloyd",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Pink Floyd npm module!",
   "main": "index.js",
   "scripts": {
