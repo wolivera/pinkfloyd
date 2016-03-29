@@ -1,0 +1,29 @@
+{
+  "name": "pinkfloyd",
+  "version": "1.0.0",
+  "description": "Pink Floyd npm module!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamsolivera/pinkfloyd.git"
+  },
+  "keywords": [
+    "npm",
+    "pinkfloyd",
+    "rock",
+    "rockandroll",
+    "music",
+    "band",
+    "pink",
+    "floyd"
+  ],
+  "author": "Williams Olivera <liamsolivera@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/williamsolivera/pinkfloyd/issues"
+  },
+  "homepage": "https://github.com/williamsolivera/pinkfloyd#readme"
+}
