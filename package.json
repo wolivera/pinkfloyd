@@ -1,7 +1,7 @@
 {
   "name": "pinkfloyd",
   "version": "0.0.1",
-  "description": "Pink Floyd npm module!",
+  "description": "Pink Floyd's experimental module with all the information about the band",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
