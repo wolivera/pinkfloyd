@@ -4,7 +4,7 @@
   "description": "Pink Floyd's experimental module with all the information about the band",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
