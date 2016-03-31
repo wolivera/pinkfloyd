@@ -1,1 +1,8 @@
-{}
+{
+	"name": "Pink Floyd",
+	"description": "Pink Floyd were an English rock band formed in London. They achieved international acclaim with their progressive and psychedelic music. Distinguished by their use of philosophical lyrics, sonic experimentation, extended compositions and elaborate live shows, they are one of the most commercially successful and influential groups in the history of popular music",
+	"founded": "1965",
+	"origin": "London, England",
+	"activity": "1965–1995 and 2012–2014",
+	"members": ["David Gilmour", "Roger Waters", "Richard Wright", "Nick Mason", "Syd Barret"]
+}

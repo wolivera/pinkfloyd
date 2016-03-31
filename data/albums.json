@@ -1,1 +1,87 @@
-[]
+[
+	{
+		"name": "The Piper at the Gates of Dawn",
+		"release": 1967,
+		"songs": [
+			"Astronomy Domine",
+			"Lucifer Sam",
+			"Matilda Mother",
+			"Flaming",
+			"Pow R. Toc H.",
+			"Take Up Thy Stethoscope and Walk",
+			"Interstellar Overdrive",
+			"The Gnome",
+			"Chapter 24",
+			"The Scarecrow",
+			"Bike"  
+		]
+	},
+	{
+		"name": "A Saucerful of Secrets",
+		"release": 1968,
+		"songs": [
+			"Let There Be More Light",
+			"Remember a Day",
+			"Set the Controls for the Heart of the Sun",
+			"Corporal Clegg",
+			"A Saucerful of Secrets",
+			"Something Else",
+			"Syncopated Pandemonium",
+			"Storm Signal",
+			"Celestial Voices",
+			"See-Saw",
+			"Jugband Blues"  
+		]
+	},
+	{
+		"name": "More",
+		"release": 1969,
+		"songs": [
+			"Cirrus Minor",
+			"The Nile Song",
+			"Crying Song",
+			"Up the Khyber",
+			"Green Is the Colour",
+			"Cymbaline",
+			"Party Sequence",
+			"Main Theme",
+			"Ibiza Bar",
+			"More Blues",
+			"Quicksilver",
+			"A Spanish Piece",
+			"Dramatic Theme"
+		]
+	},
+	{
+		"name": "Ummagumma",
+		"release": 1969,
+		"songs": [
+			"Astronomy Domine",
+			"Careful with That Axe, Eugene",
+			"Set the Controls for the Heart of the Sun",
+			"A Saucerful of Secrets",
+			"Sysyphus (Parts 1–4)",
+			"Grantchester Meadows",
+			"Several Species of Small Furry Animals Gathered Together in a Cave and Grooving with a Pict",
+			"The Narrow Way (Parts 1–3)",
+			"The Grand Vizier's Garden Party (Part 1: Entrance; Part 2: Entertainment; Part 3: Exit)"
+		]
+	},
+	{
+		"name": "Atom Heart Mother",
+		"release": 1970,
+		"songs": [
+			"Atom Heart Mother",
+			"Father's Shout",
+			"Breast Milky",
+			"Mother Fore",
+			"Funky Dung",
+			"Mind Your Throats Please",
+			"Remergence",
+			"If",
+			"Summer '68",
+			"Fat Old Sun",
+			"Alan's Psychedelic Breakfast"
+		]
+	}
+]
