@@ -1,44 +1,60 @@
-'use strict';
 
 var PinkFloyd = (function () {
 
     var instance;
  	
- 	//Create instance
-    function createBand() {
+ 	//Create singleton instance
+    function callTheBand() {
 
     	//Private properties / methods
-    	var band 	= require('./data/band.json');
-    	var members = require('./data/members.json');
-    	var albums 	= require('./data/albums.json');
+		//    	
 
     	//Public properties / methods
         return {
         	
-        	band: function(){
+        	band 	: require('./data/band.json'),
+    		members	: require('./data/members.json'),
+    		albums 	: require('./data/albums.json'),
 
-        		return this.band;
-        	},
+    		whatCanIAsk: function(){
+    			var props 	= [];
+    			var _this 	= this;
 
-        	members: function(){
-
-        		return this.members;
-        	},
-
-        	albums: function(){
-
-        		return this.albums;
-        	}
+    			for(var p in _this){    				
+    				props.push(p);
+    			}
+    			for(var k in _this.band){
+    				props.push(k)
+    			}
+    			return props;
+    		}
         }
     }
+
+    function myBand(name){
+
+    	if(!name){
+    		console.log('A band without a name? What are you thinking!?')
+    		return;
+    	}
+    	this.name = name;
+
+    	//You can do whatever you want ...
+    }
+    myBand.prototype = callTheBand(); // Keep Pink Floyd essence
  
     return {
     	//Get instance
         rock: function () { 
             if (!instance) {
-                instance = createBand();
+                instance = callTheBand();
+                Object.freeze(instance);
             }
             return instance;
+        },
+
+        changeHistory: function(name){
+        	return new myBand(name);
         }
     };
 })();
